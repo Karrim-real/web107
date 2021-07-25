@@ -1,0 +1,23 @@
+{
+  "name": "web170521",
+  "version": "1.0.0",
+  "description": "web170521",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "web170521"
+  ],
+  "author": "solomon",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
+    "express": "^4.16.3",
+    "mongoose": "^5.13.3",
+    "nodemon": "^2.0.12"
+  }
+}

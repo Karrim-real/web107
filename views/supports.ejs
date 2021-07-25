@@ -1,0 +1,29 @@
+<%- include('layout/head') %>
+  
+  <link rel="stylesheet" type="text/css" href="assests/css/supports.css">
+ 
+
+  <script type="text/javascript" src="assests/js/index.js"> </script>
+
+<%- include('layout/nav') %>
+    <br><br>
+<div class="container" style="width: 40%;margin-left: 31%;">
+	<h4 style="text-align: center;">How may we assist you?</h4>
+  <form onsubmit=" return contactMe()">
+
+    <label for="lname">Your Email</label>
+    <input type="text" id="lname" name="lastname" placeholder="Enter your email..">
+
+    <label for="lname">Order #</label>
+    <input type="text" id="lname" name="lastname" placeholder="Order #..">
+
+    <label for="subject">Comment</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+
+</bodystyle=>
+</html>
