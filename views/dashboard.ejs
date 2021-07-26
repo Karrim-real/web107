@@ -1,28 +1,9 @@
-<html>
-<head>
-    <title>Viribus Com</title>
-    <link href="viribussite.css" rel="stylesheet" type="text/css">
-        <link href="assests/css/style.css" rel="stylesheet" type="text/css">
+<%- include('layout/head') %>
 
-</head> 
-<body>
-    <header>
-        
-        <nav id="navbar">
-            <div class="container">
-            <ul> 
-        <a href="index.html"><img class="logo" src="assests/img/vLogo.jpg"></a>
-        <li class="active"><a href="index.html"> Home </a></li>
-        <li><a href="services.html"> Shop </a></li>
-        <li><a href="supports.html"> Support </a></li>
-        <li><a href="Payment.html"> Payment Cards </a></li>
-        <li><a href="detail.html"> Add/Update Details </a></li>
-        <li><a href="login_page.html"> Logout </a></li>
-    </ul>    
-        
-    </div>
-        
-    </nav>
+<link href="viribussite.css" rel="stylesheet" type="text/css">
+
+<%- include('layout/adminNav') %>
+
     <div class="hero">
     <h1>Welcome to Viribus!</h1>
         
@@ -34,8 +15,4 @@
     </div>
     
     </header>
-
-
-        
-</body>    
-</html>
+<%- include('layout/footer') %>

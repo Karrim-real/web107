@@ -1,25 +1,8 @@
-<html>
-<head>
-<title>Update Customer</title>
-    <link href="assests/css/style.css" rel="stylesheet" type="text/css">
+
+    <%- include('layout/head') %>
     <link rel="stylesheet" type="text/css" href="assests/css/updatecustomer.css">
-    <script type="text/javascript" src="assests/js/index.js"></script>
-  </head>
-<body>
-  <nav id="navbar">
-    <div class="container">
-<ul> 
-        <img class="logo" src="assests/img/vLogo.jpg">
-        <li ><a href="admin.html"> Home </a></li>
-        <li ><a href="addcustomer.html"> Add Customer </a></li>
-        <li class="active"><a href="updatecustomer.html"> Update Customer</a></li>
-        <li><a href="response.html"> Response</a></li>
-        
-        
-    </ul>    
-        
-    </div>
-    </nav>
+
+<%- include('layout/adminNav') %>
         
     <div class="hero">
            
@@ -47,9 +30,7 @@
         </form>
         
     </div>
-</body>
-
-</html>
+<%- include('layout/footer') %>
 
     <script>
 var myInput = document.getElementById("psw");
@@ -111,8 +92,6 @@ myInput.onkeyup = function() {
 }
 </script>
 	
-	    
-    </script>
-    </head>
+
 	
 	

@@ -1,32 +1,11 @@
-<html>
-<head>
-<title>Payment type</title>
+<%- include('layout/head') %>
     <link rel="stylesheet" type="text/css" href="assests/css/payment.css">
-    <link href="assests/css/style.css" rel="stylesheet" type="text/css">
+<%- include('layout/adminNav') %>
 
-<script type="text/javascript">
-    function myFunction() {
-      confirm("Payment Is Done!");
-    }
-  </script>
-  </head>
-<body>
 
-  <nav id="navbar">
-    <div class="container">
-    <ul>          
-        <a href="index.html"><img class="logo" src="assests/img/vLogo.jpg"></a>
-        <li><a href="index.html"> Home </a></li>
-        <li><a href="services.html"> Shop </a></li>
-        <li><a href="supports.html"> Support </a></li>
-        <li class="active"><a href="payment.html"> Payment Cards </a></li>
-        <li><a href="detail.html"> Add/Update Details </a></li>
-        <li><a href="index.html"> Logout </a></li>
-    
-    </ul>    
- 
-    </div>
- </nav>
+
+
+
 
 
     <div class="loginbox">
@@ -48,13 +27,10 @@
         </form>
         
     </div>
-
-</body>
-</head>
-</html>
+<%- include('layout/footer') %>
 
 	   
-    <head>
+
     <script>
 
 var myInput = document.getElementById("psw");
@@ -115,9 +91,6 @@ myInput.onkeyup = function() {
   }
 }
 </script>
-	
-	    
-    </script>
-    </head>
+
 	
 	
